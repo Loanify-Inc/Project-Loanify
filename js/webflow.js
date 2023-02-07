@@ -18917,6 +18917,7 @@ Webflow.define('forms', module.exports = function ($, _) {
     var wrap = $el.closest('div.w-form');
     data.done = wrap.find('> .w-form-done');
     data.fail = wrap.find('> .w-form-fail');
+    data.fail = wrap.find('> .w-form-agree');
     data.fileUploads = wrap.find('.w-file-upload');
     data.fileUploads.each(function (j) {
       initFileUpload(j, data);
@@ -19047,6 +19048,7 @@ Webflow.define('forms', module.exports = function ($, _) {
 
       if (type === 'checkbox') {
         value = field.is(':checked');
+        console.log("checked", value);
       } else if (type === 'radio') {
         // Radio group value already processed
         if (result[name] === null || typeof result[name] === 'string') {
@@ -19063,6 +19065,7 @@ Webflow.define('forms', module.exports = function ($, _) {
       result[name] = value;
       status = status || getStatus(field, type, name, value);
     });
+    console.log("status", value);
     return status;
   }
 

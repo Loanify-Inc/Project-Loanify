@@ -2402,19 +2402,19 @@ figcaption {
 }
 
 .text-field::-webkit-input-placeholder {
-  color: #000;
+  color: #949494d2;
 }
 
 .text-field:-ms-input-placeholder {
-  color: #000;
+  color: #949494d2;
 }
 
 .text-field::-ms-input-placeholder {
-  color: #000;
+  color: #949494d2;
 }
 
 .text-field::placeholder {
-  color: #000;
+  color: #949494d2;
 }
 
 .button-form {
@@ -2446,25 +2446,25 @@ figcaption {
 }
 
 .text-field-2::-webkit-input-placeholder {
-  color: #000;
+  color: #949494d2;
   font-size: 16px;
   font-weight: 400;
 }
 
 .text-field-2:-ms-input-placeholder {
-  color: #000;
+  color: #949494d2;
   font-size: 16px;
   font-weight: 400;
 }
 
 .text-field-2::-ms-input-placeholder {
-  color: #000;
+  color: #949494d2;
   font-size: 16px;
   font-weight: 400;
 }
 
 .text-field-2::placeholder {
-  color: #000;
+  color: #949494d2;
   font-size: 16px;
   font-weight: 400;
 }

@@ -1,0 +1,352 @@
+.card-sucess {
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    display: block;
+    padding: 5px 15px 5px 5px;
+    margin: auto;
+    background: border-box;
+    /* vertical-align: middle; */
+    text-align: center; 
+    background-color: #ffffff;
+}
+
+
+
+h4.card-sucess{
+line-height: 25px;
+color: #000;
+font-weight: 400;
+}
+
+.menu-icon img{
+    width: 25px;
+
+}
+@media only screen and (max-width: 660px) {
+.img-box img {
+  max-width: 20px;
+  margin-right: 0px;
+}
+p.hero-para-1 {
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+    font-style: italic;
+}
+h1.hero-title {
+    font-size: 33px;
+    font-weight: bold;
+    color: #393939;
+    line-height: 48px;
+}
+.faq-area {
+    padding: 35px 30px 35px 30px;
+    max-width: 1084px;
+    margin: auto;
+    background-color: #c1ddff;
+    border-radius: 7px 7px 7px 7px;
+    transition: box-shadow 0.3s;
+}
+.testimonial-area {
+    padding: 70px 0px 0px 0px;
+    background-color: #f0f7ff;
+}
+.counts {
+    max-width: 1129px;
+    margin: auto;
+    /* margin-top: 120px; */
+}
+.notice {
+    padding: 48px 45px 27px 45px;
+    box-shadow: 0px 4px 17px 0px rgb(124 124 124 / 25%);
+    background: #fff;
+    border-radius: 11px 11px 11px 11px;
+}
+
+.quote-area-lists-content {
+    font-size: 20px;
+    line-height: 23px;
+}
+h2.quote-heading {
+    font-size: 28px;
+    line-height: 35px;
+}
+h3.quote-subheading {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+h2.loan-title {
+    font-size: 35px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    max-width: 758px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.accordion-button {
+    background-color: #fff0 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hero-img {
+    margin-top: -64px;
+}
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 992px)and (min-width: 660px) {
+    span.phone-txt {
+    font-size: 12px;
+}
+
+    .phone-bg img {
+
+        width: 12px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    a.button-link {
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 20px;
+        background-color: #0b72f1;
+        border-radius: 7px 7px 7px 7px;
+        padding: 18px 20px 18px 20px;
+        color: #fff;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 600px) {
+
+
+    img.logo1 {
+        max-width: 100%;
+    }
+
+    .text-selection {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    a.button-link {
+        font-size: 10px;
+        font-weight: 700;
+        font-style: normal;
+        background-color: #0b72f1;
+        border-radius: 7px 7px 7px 7px;
+        padding: 5px 10px 5px 10px;
+        color: #fff;
+        display: inline-block;
+    }
+
+    
+
+    button#app-btn {        
+        width: 100%;
+    }
+
+    span.phone-txt {
+        font-size: 12px;
+    }
+
+    .col-5-new {
+        width: 80px;
+    }
+
+    .col-2-new {
+        width: 125px;
+    }
+
+    select.goog-te-combo {
+        border: 0;
+        font-size: 10px;
+        color: #32373c;
+        background: url(../images/globe.png) no-repeat left;
+        background-size: 12px;
+        padding-left: 15px !important;
+        width: 60px !important;
+    }
+.testimonial-area {
+    padding: 50px 15px 90px 15px;
+    background-color: #f0f7ff;
+}
+   .cards {
+    background-image: url(../images/cards-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 90px 0px;
+}
+
+    .spacer {
+        min-height: 800px;
+    }
+
+    .phone-1 {
+        width: 25px;
+        height: 30px;
+    }
+
+    p.box-content {
+        font-size: 12px;
+        line-height: 17px;
+        color: #393939;
+    }
+
+    .quote-area {
+    padding: 50px 0px 70px 0px;
+    background: #0b72f1;
+}
+
+    .col-new {
+        width: 25%;
+        font-size: 8px;
+
+    }
+
+
+}
+@media only screen and (max-width: 600px) {
+    .top-col-button{
+        padding-right: 10%;
+    }
+
+    a.button-link {
+        font-size: 10px;
+        font-weight: 700;
+        font-style: normal;
+        background-color: #0b72f1;
+        border-radius: 7px 7px 7px 7px;
+        padding: 5px 10px 5px 10px;
+        color: #fff;
+        display: inline-block;
+    }
+
+    
+
+    button#app-btn {        
+        width: 100%;
+    }
+
+    span.phone-txt {
+        font-size: 8px;
+    }
+
+    .col-5-new {
+        width: 80px;
+    }
+
+    .col-2-new {
+        width: 125px;
+    }
+
+    select.goog-te-combo {
+        border: 0;
+        font-size: 10px;
+        color: #32373c;
+        background: url(../images/globe.png) no-repeat left;
+        background-size: 12px;
+        padding-left: 15px !important;
+        width: 60px !important;
+    }
+.testimonial-area {
+    padding: 50px 15px 90px 15px;
+    background-color: #f0f7ff;
+}
+   .cards {
+    background-image: url(../images/cards-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 90px 0px;
+}
+
+    .spacer {
+        min-height: 500px;
+    }
+
+    .phone-1 {
+        width: 25px;
+        height: 30px;
+    }
+
+    p.box-content {
+        font-size: 12px;
+        line-height: 17px;
+        color: #393939;
+    }
+
+    .quote-area {
+    padding: 50px 0px 70px 0px;
+    background: #0b72f1;
+}
+
+    .col-new {
+        width: 25%;
+        font-size: 8px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .a.button-link {
+        padding: 0px 0px 0px 0px;
+        font-size: 1px;
+    }
+
+    a.hero-btn-1 {
+        font-size: 12px;
+    }
+
+    a.hero-btn-2 {
+        font-size: 11px;
+    }
+
+    .col-new1  {
+        /* width: 35%; */
+        display: inline-block;
+
+    }
+
+    span.phone-txt {
+        font-size: 6px;
+    }
+
+
+    .phone-new {
+        padding: 1px;
+        font-size: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .top-col-button{
+        padding-left: 20%;
+    }
+
+    .hero .col-lg-5.col-new1,
+    .hero .col-lg-7.col-new2
+    {
+        width: auto !important;
+
+    }
+}
